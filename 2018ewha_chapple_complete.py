@@ -7,8 +7,8 @@ driver = webdriver.Chrome('C:\\Users\\LDH\\Desktop\\chromedriver_win32\\chromedr
 
 html = driver.get("http://sugang.ewha.ac.kr")
 
-driver.find_element_by_name("id").send_keys("1635020")
-driver.find_element_by_name("passwd").send_keys("akswlwlak1")
+driver.find_element_by_name("id").send_keys("#")
+driver.find_element_by_name("passwd").send_keys("#")
 driver.find_element_by_xpath('/html/body/center[1]/form/table/tbody/tr[3]/td/input[1]').click()  # 클릭
 time.sleep(1)
 
